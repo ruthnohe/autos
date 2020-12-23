@@ -4,8 +4,7 @@
     .pre-menu{
     background-color: rgb(158, 158, 158);
     padding: 15px;
-   background-color:red;
-  display: fixed;
+    display: fixed;
     }
     .menu{
     list-style: none;
