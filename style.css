@@ -69,28 +69,28 @@
     }
     @keyframes banner {
         0% {
-            background-image: url('../crudautos/autos/Diapositiva1.JPG');
+            background-image: url('../crudautos/Diapositiva1.JPG');
         }
         25% {
-            background-image: url('../crudautos/autos/Diapositiva2.JPG');
+            background-image: url('../crudautos/Diapositiva2.JPG');
         }
         37% {
-            background-image: url('../crudautos/autos/Diapositiva3.JPG');
+            background-image: url('../crudautos/Diapositiva3.JPG');
         }
         50% {
-            background-image: url('../crudautos/autos/Diapositiva4.JPG');
+            background-image: url('../crudautos/Diapositiva4.JPG');
         }
         62% {
-            background-image: url('../crudautos/autos/Diapositiva5.JPG');
+            background-image: url('../crudautos/Diapositiva5.JPG');
         }
         74% {
-            background-image: url('../crudautos/autos/Diapositiva6.JPG');
+            background-image: url('../crudautos/Diapositiva6.JPG');
         }
         86% {
-            background-image: url('../crudautos/autos/Diapositiva7.JPG');
+            background-image: url('../crudautos/Diapositiva7.JPG');
         }
         100% {
-            background-image: url('../crudautos/autos/Diapositiva8.JPG');
+            background-image: url('../crudautos/Diapositiva8.JPG');
         }
     }
     /*---------------------Car Cruds--------------------------*/
