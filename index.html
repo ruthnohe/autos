@@ -4,19 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e1e3f301f6.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="pre-menu">
-        <div class="logo">Ruth R.</div>
+        <div class="logo">Crud Cars</div>
         <ul class="menu">
-            <li> <a href="init" class="submenu">Inicio</a> </li>
-            <li> <a href="prod" class="submenu">Productos</a> </li>
-            <li> <a href="init" class="submenu">Contactame</a> </li>
+            <li> <a href="#slider" class="submenu">Inicio</a> </li>
+            <li> <a href="#title-cars" class="submenu">Productos</a> </li>
+            <li> <a href="#footer" class="submenu">Contactame</a> </li>
         </ul>
     </div>
-    <div class="banner">
-        <a href="#">Crud Autos</a>
+    <div class="banner" id="slider">
+        <a href="#form-car">Crud Autos</a>
     </div>
+    <div class="title-crud" id="title-cars">
+        <h2>Crud Autos</h2>
+    </div>
+    <div class="container mt-5">
+        <div class="card bg-blue">
+            <div class="card-body">
+                <form id="form-car" onsubmit="event.preventDefault(), addCar()" action="/cars.php">
+                    <div class="form-group">
+                        <label for="brand">Marca</label>
+                        <input type="text" class="form-control" id="brand" placeholder="Ingresa marca del vehículo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="model">Modelo</label>
+                        <input type="text" class="form-control" id="model" placeholder="Ingresa modelo del vehículo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="colors">Color</label>
+                        <input type="text" class="form-control" id="colors" placeholder="Ingresa color del vehículo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="year">Año</label>
+                        <input type="text" class="form-control" id="year" placeholder="Ingresa año del vehículo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="price">Precio</label>
+                        <input type="text" class="form-control" id="price" placeholder="Ingresa precio del vehículo" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Marca</th>
+                    <th>Modelo</th>
+                    <th>Color</th>
+                    <th>Año</th>
+                    <th>Precio</th>
+                    <th>Opciones</th>
+                </tr>
+            </thead>
+            <tbody id="container-cars">
+                
+            </tbody>
+        </table>
+    </div>
+    <script src="./js.js"></script>
+    <div class="social">
+        <ul>
+            <li><a href="https://www.facebook.com/nohemi.rangel.315" target="facebook" class="icon1"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.youtube.com/watch?v=_jrUlnr0ncg&list=PLrjbWK3PQKl8KvcA-nYIGGm4yBtbYbXMq" target="youtube" class="icon2"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com/g.nohemi_rr/" target="instagram" class="icon3"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </div>
+    <footer>
+        <div class="content-footer" id="footer">
+            <div class="footer-two">
+                <h4>Contactame</h4>
+                <p>(+57) 3175779798 </p>
+            </div>
+            <div class="footer-two">
+                <h4>Email</h4>
+                <p>Rangelguilarte@gmail.com </p>
+            </div>
+            <div class="footer-two">
+                <h4>Redes Sociales</h4>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/nohemi.rangel.315" target="facebook"> <i class="fab fa-facebook"></i> </a>
+                    <a href="https://www.youtube.com/watch?v=_jrUlnr0ncg&list=PLrjbWK3PQKl8KvcA-nYIGGm4yBtbYbXMq" target="youtube"> <i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/g.nohemi_rr/" target="instagram"> <i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="final-title">
+             © Copyright 2020 || Desarrolladora Ruth Rangel.    
+        </div>
+    </footer>
 </body>
 </html>
