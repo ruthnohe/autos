@@ -42,7 +42,7 @@
     background-size: cover;
     background-position: center;
     transition: all .1s ease-in-out;
-    background-image: url('../crudautos/crudautos/mercedesrojo.jpg');
+    background-image: url("https://scontent.fctg2-1.fna.fbcdn.net/v/t1.0-9/131353287_112956110663221_5961409118729816809_n.jpg?_nc_cat=103&ccb=2&_nc_sid=8bfeb9&_nc_ohc=IHMHWkLP7GsAX8SEnDV&_nc_ht=scontent.fctg2-1.fna&oh=394554268123b73823f162cd04947cf1&oe=60097CB3");
     animation: banner 24s infinite linear;
     margin-bottom: 2rem;
     display: flex;
@@ -69,25 +69,25 @@
     }
     @keyframes banner {
         0% {
-            background-image: url('../crudautos/Diapositiva1.JPG');
+            background-image: url("https://scontent.fctg2-1.fna.fbcdn.net/v/t1.0-9/131353287_112956110663221_5961409118729816809_n.jpg?_nc_cat=103&ccb=2&_nc_sid=8bfeb9&_nc_ohc=IHMHWkLP7GsAX8SEnDV&_nc_ht=scontent.fctg2-1.fna&oh=394554268123b73823f162cd04947cf1&oe=60097CB3");
         }
         25% {
-            background-image: url('../crudautos/Diapositiva2.JPG');
+            background-image: url("https://scontent.fctg2-1.fna.fbcdn.net/v/t1.0-9/130842087_112313210727511_5393989539837379471_o.jpg?_nc_cat=100&ccb=2&_nc_sid=8bfeb9&_nc_ohc=bLZgVb5PwvIAX8l8Rpo&_nc_ht=scontent.fctg2-1.fna&oh=236bbe1375b0846b75f0b180cbe780de&oe=600A0562");
         }
         37% {
-            background-image: url('../crudautos/Diapositiva3.JPG');
+            background-image: url("https://scontent.fctg2-1.fna.fbcdn.net/v/t1.0-9/130538282_112023837423115_1812815549112641305_o.jpg?_nc_cat=104&ccb=2&_nc_sid=8bfeb9&_nc_ohc=qQZKK3EjxGsAX-cHIHI&_nc_ht=scontent.fctg2-1.fna&oh=31f5cbc668a4e43273ca624c47c83e1d&oe=600AC973");
         }
         50% {
-            background-image: url('../crudautos/Diapositiva4.JPG');
+            background-image: url("https://scontent.fctg2-1.fna.fbcdn.net/v/t1.0-9/131098177_111582384133927_7449520950754713882_o.jpg?_nc_cat=105&ccb=2&_nc_sid=8bfeb9&_nc_ohc=BF9Wzxde9f0AX-6sd8S&_nc_oc=AQlsbAGHVfySEfk9dsjVI7_PE_EeW_gdGLj7NkoS9iJ7Pz1EJ_C2HobmG24twlqeinM&_nc_ht=scontent.fctg2-1.fna&oh=0b94857837c5ede4daee8a892d46335a&oe=60085F96");
         }
         62% {
-            background-image: url('../crudautos/Diapositiva5.JPG');
+            background-image: url("https://scontent.fctg2-1.fna.fbcdn.net/v/t1.0-9/130279453_111283104163855_2319125829216335525_o.jpg?_nc_cat=108&ccb=2&_nc_sid=8bfeb9&_nc_ohc=z4gY2vAJ_9AAX_enAyL&_nc_ht=scontent.fctg2-1.fna&oh=ba08d91b851eb9b83d896a1c6c169fe2&oe=600AB735");
         }
         74% {
-            background-image: url('../crudautos/Diapositiva6.JPG');
+            background-image: url("https://scontent.fctg2-1.fna.fbcdn.net/v/t1.0-9/130604057_110333800925452_3758412127759862765_o.jpg?_nc_cat=101&ccb=2&_nc_sid=8bfeb9&_nc_ohc=RWFBjlIRSPgAX_WaF5s&_nc_ht=scontent.fctg2-1.fna&oh=a6dd3c532ac88caf2caba76f409ab45f&oe=60083F6A");
         }
         86% {
-            background-image: url('../crudautos/Diapositiva7.JPG');
+            background-image: url("https://scontent.fctg2-1.fna.fbcdn.net/v/t1.0-9/130191233_109518004340365_4473196671905835849_o.jpg?_nc_cat=111&ccb=2&_nc_sid=8bfeb9&_nc_ohc=fksoMdfpKmgAX9GGIMC&_nc_ht=scontent.fctg2-1.fna&oh=2185bafc9acec43fb4b3a85954bc93eb&oe=600A1D9B");
         }
         100% {
             background-image: url('../crudautos/Diapositiva8.JPG');
